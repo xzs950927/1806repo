@@ -7,10 +7,10 @@ server:
 spring:
   application:
     name: service-feign
-    thymeleaf:
-      cache: false
-      prefix: classpath:/templates/
-      suffix: .html
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
 feign:
   hystrix:
     enabled: true
